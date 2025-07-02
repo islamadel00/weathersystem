@@ -1,0 +1,44 @@
+body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      padding-top: 40px;
+    }
+    .search-bar {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      margin-bottom: 40px;
+    }
+    .search-bar input {
+      flex: 1;
+      padding: 15px;
+      border: none;
+      outline: none;
+    }
+    .search-bar button {
+      padding: 15px 25px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+    }
+    .card {
+      background-color: rgba(255,255,255,0.1);
+      border: none;
+      border-radius: 15px;
+      padding: 20px;
+      transition: 0.3s;
+      text-align: center;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      background-color: rgba(255,255,255,0.15);
+    }
+    .card img {
+      width: 80px;
+    }
